@@ -1,9 +1,11 @@
+import { Button } from "@/components/ui/button";
+
 const Dashboard = () => {
   return (
     <>
-      Dashboard
+      <Button>Click me</Button>
     </>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
