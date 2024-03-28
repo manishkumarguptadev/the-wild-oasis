@@ -1,9 +1,15 @@
+import BookingTable from "@/features/bookings/BookingTable";
+
 const Bookings = () => {
   return (
     <>
-      Bookings
-    </>
-  )
-}
+      <div>
+        <h1 className="mb-4 text-2xl font-semibold">All bookings</h1>
+      </div>
 
-export default Bookings
+      <BookingTable />
+    </>
+  );
+};
+
+export default Bookings;
